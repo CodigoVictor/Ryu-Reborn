@@ -1,5 +1,7 @@
-name: Build and Release IPA
+name: Build and Release IPA for 2.0
+
 on:
+  workflow_dispatch:
   push:
     branches:
       - Main
